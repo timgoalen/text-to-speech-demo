@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/script.js" defer></script>
     <title>Text-to-Speech Demo</title>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <main>
+      <div class="text-area-container">
+        <textarea
+          autofocus
+          name="text-area-content"
+          id="text-area"
+          rows="13"
+          placeholder="Enter text..."
+        ></textarea>
+      </div>
+
+      <div class="btns-container">
+        <button id="speak-btn">Speak</button>
+        <button id="clear-btn">Clear</button>
+      </div>
+    </main>
+  </body>
 </html>
